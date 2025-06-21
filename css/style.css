@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #44358a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    /* Sadece sarmalayıcı, ekstra flex gerek yok */
+}
+
+.stopwatch {
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    text-align: center;
+    min-width: 500px;
+}
+
+.buttons button {
+    font-size: 1.2rem;
+    padding: 0.7rem 2.2rem;
+    margin: 0 0.7rem;
+    border: none;
+    border-radius: 6px;
+    background: #8000ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.buttons button:hover {
+    background: #a020f0;
+}
+
+.info {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #333;
+}
